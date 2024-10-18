@@ -9,11 +9,11 @@ op = input("Enter operation (+, -, *, /): ")# give secend number from user
 num_2 = int(input('num_2 :'))# give secend number from user
 if op=='+': # check to user enterd + or not
     print(num_1 + num_2)# show user result
-elif op=='-':# check if user don't entered + chekc to he enter -
+if op=='-':# check if user don't entered + chekc to he enter -
     print(num_1 - num_2)# show user result
-elif op=='*':# check if user don't entered +,- chekc to he enter *
+if op=='*':# check if user don't entered +,- chekc to he enter *
     print(num_1 * num_2)# show user result
-elif op == '/':#check if user don't entered +,-,* chekc to he enter /
+if op == '/':#check if user don't entered +,-,* chekc to he enter /
     if num_2 != 0:# check to second number isn't 0
         print(num_1 / num_2)# show user result
     else:# if upper if isn't correct do this
